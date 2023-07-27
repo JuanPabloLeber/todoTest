@@ -17,7 +17,7 @@ function App() {
           <input
             data-id={index}
             onChange={(e) => {
-              // Fixed this part. I was curious about it. The assigning was the way but a bit deferent. I needed to use a deep copy because it was an object inside another, so shallow copy with "..." was a mistake too.
+              // Fixed this part. I was curious about it. The assigning was the way but a bit different. I needed to use a deep copy because it was an object inside another, so shallow copy with "..." was a mistake too.
               // const index = parseInt(e.target.getAttribute('data-id')) + 1
               // setTodos((prev) => {
               //   const copy = structuredClone(prev)
