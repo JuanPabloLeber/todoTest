@@ -1,0 +1,14 @@
+{
+  "1": {
+    "checked": true,
+    "task": "Walk dog"
+  },
+  "2": {
+    "checked": false,
+    "task": "Buy fruit"
+  },
+  "3": {
+    "checked": false,
+    "task": "Call Andres"
+  }
+}
